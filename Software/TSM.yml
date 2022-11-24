@@ -1,0 +1,13 @@
+tsm-8.1.15.0:
+  - Name: tsm
+    Version: '8.1.15.0'
+    Source: Nexus
+    BasePackageURL: https://repo.cosng.net/repository/tsm/8.1.15.0/tsm-8.1.15.0.exe
+    DefaultFrom: 2022-09-30
+
+tsm-8.1.2.0:
+  - Name: tsm
+    Version: '8.1.2.0'
+    Source: Nexus
+    BasePackageURL: https://repo.cosng.net/repository/tsm/8.1.2.0/tsm-8.1.2.0.exe
+    DefaultFrom: 2017-03-17

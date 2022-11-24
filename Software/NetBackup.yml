@@ -1,0 +1,10 @@
+SoftwareBaseline: # Parameters for DSC Composite Configuration SoftwareBaseline
+  Sources:
+    - Name: Nexus
+      Disabled: false
+      Source: https://repo.cosng.net/
+  
+  Packages:
+    - Name: netbackup
+      Version: '8.1.2'
+      Source: Nexus

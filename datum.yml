@@ -1,0 +1,10 @@
+# Datum.yml
+DatumStructure:
+  - StoreName: AllNodes
+    StoreProvider: Datum::File
+    StoreOptions:
+      Path: "./AllNodes"
+      
+ResolutionPrecedence:
+  ResolutionPrecedence:
+  - 'Software\$($Node.Software)'
